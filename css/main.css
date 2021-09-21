@@ -8,7 +8,6 @@
 
 /* HEADER */
 header{
-    background: yellow;
     width: 100%;
     position: fixed;
     text-align: right;
@@ -26,22 +25,38 @@ header{
 
 .menu li a {
     display: inline-block;
-    padding: 20px;
     text-decoration: none;
+    padding: 20px;
+    color: #000;
+    font-size: 20px;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px 0;
+    background-color: #fff;
+}
+
+.menu .box:hover{
+    background-color: #48cae4;
 }
 
 /* main */
 .section1 {
-    background: blue;
+    background: #ff0000;
     height: 100vh;
 }
 
 .section2 {
-    background: green;
+    background: #008000;
     height: 100vh;
 }
 
 .section3 {
-    background: purple;
+    background: #ffff00;
     height: 100vh;
 }
