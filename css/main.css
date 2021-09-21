@@ -18,6 +18,10 @@
     color: #008000;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* HEADER */
 header{
     width: 100%;
