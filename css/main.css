@@ -3,7 +3,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+}
+
+/* utility */
+.margin-top {
+    margin-top: 10px;
+}
+
+.c-yellow {
+    color:#ffff00 ;
+}
+
+.c-green{
+    color: #008000;
 }
 
 /* HEADER */
@@ -59,4 +71,23 @@ header{
 .section3 {
     background: #ffff00;
     height: 100vh;
+}
+
+
+.img-main {
+   width: 50%;
+   margin:  0 auto;
+}
+
+.img-main img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-main {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
 }
